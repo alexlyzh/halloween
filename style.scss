@@ -1,3 +1,5 @@
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Oswald', sans-serif;
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +12,73 @@ table {
 }
 ol, ul {
   list-style-type: none;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+}
+.wrapper {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header {
+  background-image: url("img/pumpkins.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 190px 0 320px;
+}
+.invite {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 95px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.inv-comment {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.numbers {
+  background-color: #F7F7F7;
+  padding: 57px 0;
+  margin: -160px auto 0;
+}
+.numbers__wrap {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+}
+.numbers__item {
+  & h2 {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+  }
+  & h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  & p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+  }
 }
